@@ -1,0 +1,12 @@
+2022-01-02 14:17:15,984 INFO org.springframework.boot.StartupInfoLogger [main] Starting KafkaProducerApplicationTests using Java 17.0.1 on Srirams-MacBook-Pro.local with PID 8795 (started by sriramprasanth in /Users/sriramprasanth/Projects/arun/kafka/kafka-producer)
+2022-01-02 14:17:15,986 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.1, Spring v5.3.13
+2022-01-02 14:17:15,986 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-02 14:17:17,246 INFO org.springframework.boot.StartupInfoLogger [main] Started KafkaProducerApplicationTests in 1.571 seconds (JVM running for 2.451)
+2022-01-02 15:31:10,124 INFO org.springframework.boot.StartupInfoLogger [main] Starting KafkaProducerApplicationTests using Java 17.0.1 on Srirams-MacBook-Pro.local with PID 970 (started by sriramprasanth in /Users/sriramprasanth/Projects/arun/kafka/kafka-producer)
+2022-01-02 15:31:10,126 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.1, Spring v5.3.13
+2022-01-02 15:31:10,126 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-02 15:31:11,582 INFO org.springframework.boot.StartupInfoLogger [main] Started KafkaProducerApplicationTests in 1.807 seconds (JVM running for 2.775)
+2022-01-02 16:18:22,673 INFO org.springframework.boot.StartupInfoLogger [main] Starting KafkaProducerApplicationTests using Java 17.0.1 on Srirams-MacBook-Pro.local with PID 4239 (started by sriramprasanth in /Users/sriramprasanth/Projects/arun/kafka/kafka-producer)
+2022-01-02 16:18:22,675 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.1, Spring v5.3.13
+2022-01-02 16:18:22,675 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-01-02 16:18:23,921 INFO org.springframework.boot.StartupInfoLogger [main] Started KafkaProducerApplicationTests in 1.513 seconds (JVM running for 2.208)

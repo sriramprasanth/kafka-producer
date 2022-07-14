@@ -1,0 +1,10 @@
+2022-07-14 07:49:04,692 INFO org.springframework.boot.StartupInfoLogger [main] Starting KafkaProducerApplicationTests using Java 17.0.2 on Sriram with PID 12556 (started by srira in C:\Users\srira\Downloads\int\int\kafka\kafka-producer)
+2022-07-14 07:49:04,694 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.1, Spring v5.3.13
+2022-07-14 07:49:04,695 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-14 07:49:06,511 INFO org.springframework.boot.StartupInfoLogger [main] Started KafkaProducerApplicationTests in 2.275 seconds (JVM running for 3.311)
+2022-07-14 07:50:05,794 INFO org.springframework.boot.StartupInfoLogger [main] Starting KafkaProducerApplicationTests using Java 17.0.2 on Sriram with PID 20376 (started by srira in C:\Users\srira\Downloads\int\int\kafka\kafka-producer)
+2022-07-14 07:50:05,796 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-14 07:50:07,517 INFO org.springframework.boot.StartupInfoLogger [main] Started KafkaProducerApplicationTests in 2.093 seconds (JVM running for 3.055)
+2022-07-14 07:50:46,648 INFO org.springframework.boot.StartupInfoLogger [main] Starting KafkaProducerApplicationTests using Java 17.0.2 on Sriram with PID 22280 (started by srira in C:\Users\srira\Downloads\int\int\kafka\kafka-producer)
+2022-07-14 07:50:46,650 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-07-14 07:50:48,443 INFO org.springframework.boot.StartupInfoLogger [main] Started KafkaProducerApplicationTests in 2.162 seconds (JVM running for 3.142)

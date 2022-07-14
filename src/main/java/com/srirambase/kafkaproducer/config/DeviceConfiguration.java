@@ -1,5 +1,5 @@
-package com.arunbase.kafkaproducer.config;
-import com.arunbase.kafkaproducer.model.User;
+package com.srirambase.kafkaproducer.config;
+import com.srirambase.kafkaproducer.model.Device;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
@@ -13,22 +13,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class KafkaConfiguration {
+public class DeviceConfiguration {
 
-    //to serialzie the json user object
+    //to serialzie the json object
     @Bean
-    public ProducerFactory<String,User> producerFactory(){
+    public ProducerFactory<String, Device> producerFactory(){
         Map<String, Object> config = new HashMap<>();
-        config.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"127.0.0.1:9092");
+        config.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"kafka:9092");
         config.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         config.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
         return new DefaultKafkaProducerFactory(config);
     }
 
-
-
     @Bean
     public KafkaTemplate kafkaTemplate(){
-        return new KafkaTemplate<String,User>(producerFactory());
+        return new KafkaTemplate<String, Device>(producerFactory());
     }
 }
